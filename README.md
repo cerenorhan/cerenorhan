@@ -32,7 +32,7 @@ I am particularly interested in developing reproducible workflows that connect:
 
 ### Long-Read & Rare Disease Genomics
 
-Developing and validating targeted **Oxford Nanopore sequencing** workflows for inherited metabolic and rare diseases, including alignment, coverage assessment, variant calling, filtering, annotation, and validation.
+Developing and validating targeted **Oxford Nanopore sequencing** workflows for inherited metabolic and rare diseases, including alignment, coverage assessment, variant calling, filtering, annotation, validation, and comparative workflow evaluation.
 
 ### Cancer Genomics & Precision Oncology
 
@@ -48,7 +48,25 @@ Analyzing RNA-seq and integrating transcriptomic, proteomic, genomic, and clinic
 
 ---
 
-## Featured Project
+## Featured Projects
+
+### FAOD ONT Probe-Capture Workflow
+
+[`faod-ont-probe-capture`](https://github.com/cerenorhan/faod-ont-probe-capture)
+
+A reproducibility repository supporting the comparative evaluation of an established amplicon-based LR-PCR/ONT workflow and a custom probe-capture ONT workflow for molecular analysis of fatty acid oxidation disorders.
+
+The repository includes:
+
+* V2 LR-PCR/ONT and V3 probe-capture/ONT processing pipelines
+* BAM-level safety-net interrogation
+* Sequencing and workflow quality-control analyses
+* Shared-target coverage and interval-level rescue analyses
+* Clinically relevant variant comparison
+* Allele-frequency and genotype-consistency analyses
+* Candidate-call quality profiling
+* Technical reproducibility analyses
+* Publication-derived datasets and figures
 
 ### Breast Cancer Fuzzy-ML Reproducibility Framework
 
@@ -58,16 +76,16 @@ A reproducible computational framework for machine-learning and fuzzy-logic anal
 
 The workflow includes:
 
-* clinical data preprocessing
+* Clinical data preprocessing
 * Logistic Regression
 * Random Forest
 * Support Vector Machine
 * XGBoost
-* cross-validation
-* fuzzy classification
+* Cross-validation
+* Fuzzy classification
 * SHAP-based model interpretation
-* statistical analysis
-* publication-oriented figures and tables
+* Statistical analysis
+* Publication-oriented figures and tables
 
 ---
 
@@ -111,7 +129,6 @@ I am particularly interested in research where computational methods can directl
 
 Research workflows currently being prepared for public release include projects involving:
 
-* targeted long-read sequencing
 * Rare disease variant analysis
 * WES pipelines
 * RNA-seq analysis
