@@ -112,11 +112,11 @@ I am particularly interested in research where computational methods can directl
 Research workflows currently being prepared for public release include projects involving:
 
 * targeted long-read sequencing
-* rare disease variant analysis
+* Rare disease variant analysis
 * WES pipelines
 * RNA-seq analysis
 * African population genomics
-* proteogenomics and multi-omics integration
+* Proteogenomics and multi-omics integration
 
 ---
 
